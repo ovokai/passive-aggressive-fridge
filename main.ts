@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const entry =
-  "You told your guests you cook. My camera disagrees. It's hummus. Again.";
+  "You opened me 14 times today. Nothing new has appeared since visit one. One of us needs to change, and I'm set to 4\u00B0C.";
 
 try {
   mkdirSync("/output", { recursive: true });
